@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    margin-right: 200px;
+}
+.logo{
+    width:150px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    padding:7px 10px;
+    border-radius:3px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+selector{
+    padding:5px 16px;
+    background-color: transparent;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid rgb(126, 125, 125);
+    box-sizing:border-box;
+    cursor: pointer;
+}
+button{
+    background-color: red;
+    border-radius: 3px;
+    padding: 7px 20px;
+    margin-left: 4px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+.a{
+    text-align: center;
+    position: relative;
+    top:150px;
+}
+div input{
+    padding: 5px;
+    width: 250px;
+    background: transparent;
+    color: white;
+    background-color: #2e2a2a;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+input::placeholder{
+    color: white;
+}
+option{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.a h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.background-style::before{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0.7);
+    backdrop-filter: blur(1px);
+    z-index: index -1;
+}
